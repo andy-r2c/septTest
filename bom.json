@@ -1,0 +1,294 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:ace02223-dac7-49f6-8ab0-66be0a2e1da8",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-08-28T20:37:25.933Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.6.1",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.6.1",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.6.1"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "Prabhu Subramanian",
+        "email": "prabhu@appthreat.com"
+      }
+    ],
+    "component": {
+      "name": "sca-demo-app",
+      "group": "",
+      "version": "1.0.0",
+      "bom-ref": "pkg:npm/sca-demo@1.0.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/andyhuang/Desktop/sca-demo/package.json"
+        }
+      ],
+      "type": "application",
+      "purl": "pkg:npm/sca-demo@1.0.0",
+      "components": []
+    }
+  },
+  "components": [
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "chalk",
+      "version": "5.0.1",
+      "description": "",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "168d3b58e606a8c7c25873b34973add82c436c2eac912fe33bdca711c9a900d3283eb0fe5b5af52ba571ee2366f804261135355ebdadfa7f27ce457db7ac61df"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/chalk@5.0.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/chalk@5.0.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/andyhuang/Desktop/sca-demo/yarn.lock"
+            }
+          ]
+        },
+        "occurrences": [
+          {
+            "location": "index.js#1"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/andyhuang/Desktop/sca-demo/yarn.lock"
+        },
+        {
+          "name": "ImportedModules",
+          "value": "chalk"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "lodash.merge",
+      "version": "4.6.1",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "00e6336b8f877f9cf5ff41f3b71a66dbfc623d9822fdc8cca9d9ca4d459305229c8499715d7b944b108297cac995fe20eb2c30fe3ea603c9c2f07c3f1195b129"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/lodash.merge@4.6.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/lodash.merge@4.6.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/andyhuang/Desktop/sca-demo/yarn.lock"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/andyhuang/Desktop/sca-demo/yarn.lock"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "lodash.mergewith",
+      "version": "4.6.1",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "796c39afe3d8202b44060ac1139861953e9a01aef97f8d756e00f3fd92f6299a98574dd44afb9cb317075089464c34c40acd5eba7a48ec7395ed4f962c3bcd75"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/lodash.mergewith@4.6.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/lodash.mergewith@4.6.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/andyhuang/Desktop/sca-demo/yarn.lock"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/andyhuang/Desktop/sca-demo/yarn.lock"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "lodash.zipobjectdeep",
+      "version": "4.4.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "e11a2173ade427d674d552d660297a5b72cef076"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/lodash.zipobjectdeep@4.4.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/lodash.zipobjectdeep@4.4.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/andyhuang/Desktop/sca-demo/yarn.lock"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/andyhuang/Desktop/sca-demo/yarn.lock"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "minimist",
+      "version": "1.2.5",
+      "description": "",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "14cf6735462b4410042d9413df179943b7e630e060ea758d989293720b0979a2ecb4ffd43835691acaf93a15e185783a7feaad27cba267e3d4c640d67202172f"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/minimist@1.2.5",
+      "type": "library",
+      "bom-ref": "pkg:npm/minimist@1.2.5",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/andyhuang/Desktop/sca-demo/yarn.lock"
+            }
+          ]
+        },
+        "occurrences": [
+          {
+            "location": "index.js#5"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/andyhuang/Desktop/sca-demo/yarn.lock"
+        },
+        {
+          "name": "ImportedModules",
+          "value": "minimist"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "actions",
+      "name": "checkout",
+      "version": "v3",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:github/actions/checkout@v3",
+      "type": "application",
+      "bom-ref": "pkg:github/actions/checkout@v3"
+    }
+  ],
+  "services": [],
+  "dependencies": [
+    {
+      "ref": "pkg:npm/chalk@5.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/lodash.merge@4.6.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/lodash.mergewith@4.6.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/lodash.zipobjectdeep@4.4.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/minimist@1.2.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/sca-demo-app@1.0.0",
+      "dependsOn": [
+        "pkg:npm/chalk@5.0.1",
+        "pkg:npm/lodash.merge@4.6.1",
+        "pkg:npm/lodash.mergewith@4.6.1",
+        "pkg:npm/lodash.zipobjectdeep@4.4.0",
+        "pkg:npm/minimist@1.2.5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "sca-demo-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "lodash.merge": "4.6.1",
+    "lodash.mergewith": "4.6.1",
+    "lodash.zipobjectdeep": "^4.4.0",
+    "minimist": "1.2.5"
+  }
+}
