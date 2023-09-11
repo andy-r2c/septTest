@@ -12,6 +12,7 @@
     "lodash.merge": "4.6.1",
     "lodash.mergewith": "4.6.1",
     "lodash.zipobjectdeep": "^4.4.0",
-    "minimist": "1.2.5"
+    "minimist": "1.2.5",
+    "vm2": "3.9.9"
   }
 }
